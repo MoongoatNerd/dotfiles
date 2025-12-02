@@ -6,5 +6,6 @@
 # set --universal --erase SSH_KEYS_TO_AUTOLOAD[index_of_key]
 
 if status is-interactive
+    and test -z "$SSH_CONNECTION"
     keychain --eval $SSH_KEYS_TO_AUTOLOAD | source
 end
