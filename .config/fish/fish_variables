@@ -1,5 +1,8 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export SSH_AGENT_PID:7483
+SETUVAR --export SSH_AUTH_SOCK:/home/moongoat/\x2essh/agent/s\x2eJgb5uhmSFx\x2eagent\x2ekCo9Px5fmG
+SETUVAR SSH_KEYS_TO_AUTOLOAD:/home/moongoat/\x2essh/personal_key
 SETUVAR __done_min_cmd_duration:10000
 SETUVAR __done_notification_urgency_level:low
 SETUVAR __fish_initialized:3800

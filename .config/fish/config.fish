@@ -2,7 +2,7 @@
 source /usr/share/cachyos-fish-config/cachyos-config.fish
 
 # Variables
-set -gx EDITOR vim
+set -gx EDITOR nvim
 
 # Wrapper for yazi
 function y
